@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <fieldset>
+        <legend>Details</legend>
+    <form>
+        <label for="firstname">FirstName</label>
+        <input type="text" name="firstname" required><br><br>
+        <label for="middlename">MiddleName</label>
+        <input type="text" name="middlename"><br><br>
+        <label for="lastname">LastName</label>
+        <input type="text" name="lastname" required><br><br>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday"><br><br>
+       <label for="email">Email</label>
+        <input type="email" name="email" required><br><br>
+        <label for="regno">REGNO</label>
+        <input type="text" name="regno" required><br><br>
+        <label for="phonenumber">Phonenumber</label>
+        <input type="tel" name="phonenumber" required><br><br>
+        <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>  
+        </select>
+        <br><br>
+        <label for="course">Course</label>
+       <select name="course">
+        <optgroup label="Under Graduate">
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BSC">BSc</option>
+        </optgroup>
+       </select>
+       <br><br>
+       <label for="branch">Branch</label>
+       <select name="branch">
+        <optgroup label="B.Tech">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+        </optgroup>
+        <optgroup label="B.Com">
+            <option value="Marketing">Marketing</option>
+            <option value="Economics">Economics</option>
+        </optgroup>
+        <optgroup label="BSc">
+            <option value="bsc in physics">BSc in Physics </option>
+            <option value="bsc in mathametics">BSc in Mathametics</option>
+        </optgroup>
+       </select><br><br>
+       <label for="select course">Select Course</label>
+       <select name="select course">
+        
+            <option value="AI-ML">AI-ML</option>
+            <option value="NETWORKING">NETWORKING</option>
+            <option value="CLOUD">CLOUD</option>
+        
+       </select>
+       <br><br>
+       
+       
+       <div id="submit">
+        <input type="submit" value="Register">
+    </div>
+    </form>
+    </fieldset>
+</body>
+</html>
